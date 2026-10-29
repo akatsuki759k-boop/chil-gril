@@ -1,0 +1,802 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="chil and gril - Rumah makan dan bistro kuliner autentik Indonesia. Menyajikan aneka daging dengan cita rasa terbaik dan harga terjangkau.">
+  <title>chil & gril</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+  <!-- External Stylesheet (Terpisah) -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ==========================================================================
+       1. HEADER & NAVIGASI
+       ========================================================================== -->
+  <header class="site-header" id="site-header">
+    <div class="container">
+      <nav class="navbar" id="main-navbar">
+        <!-- Logo Brand & Identitas Usaha -->
+        <a href="#beranda" class="brand-logo" id="brand-link">
+          <div class="brand-icon">
+            <i class="fa-solid fa-utensils"></i>
+          </div>
+          <div class="brand-text-wrap">
+            <span class="brand-name">chil</span>
+            <span class="brand-tagline">& gril</span>
+          </div>
+        </a>
+
+        <!-- Menu Navigasi Lokal -->
+        <ul class="nav-menu" id="nav-menu">
+          <li><a href="#beranda" class="nav-link active">Beranda</a></li>
+          <li><a href="#tentang" class="nav-link">Tentang Kami</a></li>
+          <li><a href="#menu" class="nav-link">Menu Spesial</a></li>
+          <li><a href="#keunggulan" class="nav-link">Keunggulan</a></li>
+          <li><a href="#kontak" class="nav-link">Kontak & Reservasi</a></li>
+        </ul>
+
+        <!-- Tombol Aksi Header -->
+        <div class="nav-actions">
+          <a href="#menu" class="btn btn-primary btn-sm" id="btn-quick-order">
+            <i class="fa-solid fa-bowl-food"></i> Pesan Sekarang
+          </a>
+          <button class="mobile-toggle" id="mobile-toggle-btn" aria-label="Buka Menu Navigasi">
+            <i class="fa-solid fa-bars"></i>
+          </button>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <!-- ==========================================================================
+       2. BAGIAN BERANDA (HERO SECTION)
+       ========================================================================== -->
+  <section class="hero-section" id="beranda">
+    <div class="container">
+      <div class="hero-grid">
+        <!-- Teks Konten Hero -->
+        <div class="hero-content">
+          <div class="hero-pill">
+            <span class="dot"></span> 100% Halal & Bahan Rempah Segar Pilihan
+          </div>
+          <h1 class="hero-title">
+            Jelajahi Kelezatan Rempah <span class="highlight">chil & gril</span>
+          </h1>
+          <p class="hero-description">
+            Selamat datang di chil & gril . Kami menghidangkan Daging sapi berkualitas dengan racikan bumbu rempah alami pilihan, diolah oleh koki berpengalaman untuk menghadirkan kehangatan di setiap suapan.
+          </p>
+          <div class="hero-cta-group">
+            <a href="#menu" class="btn btn-primary" id="btn-explore-menu">
+              <i class="fa-solid fa-utensils"></i> Jelajahi Menu
+            </a>
+            <a href="#kontak" class="btn btn-secondary" id="btn-reserve-table">
+              <i class="fa-regular fa-calendar-check"></i> Reservasi Meja
+            </a>
+          </div>
+          <!-- Keunggulan Singkat Hero -->
+          <div class="hero-badges-row">
+            <div class="hero-feature-item">
+              <i class="fa-solid fa-certificate"></i>
+              <span>100% Halal</span>
+            </div>
+            <div class="hero-feature-item">
+              <i class="fa-solid fa-leaf"></i>
+              <span>Bahan Segar Alami</span>
+            </div>
+            <div class="hero-feature-item">
+              <i class="fa-solid fa-fire-burner"></i>
+              <span>Dimasak Fresh Setiap Hari</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Gambar Hero & Floating Badge -->
+        <div class="hero-visual">
+          <div class="hero-image-wrapper">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-u44H733Ni-Z8VipDSOZar937aUvZg1hDPLJBCy71QQ&s=10" alt="Sajian Kuliner Spesial chil and gril" >
+            
+            <!-- Floating Badge Kiri Atas -->
+            <div class="floating-badge badge-top-left">
+              <div class="floating-icon">
+                <i class="fa-solid fa-star"></i>
+              </div>
+              <div class="floating-text">
+                <strong>Rating 4.9/5.0</strong>
+                <span>Dari 2.500+ Pelanggan</span>
+              </div>
+            </div>
+
+            <!-- Floating Badge Kanan Bawah -->
+            <div class="floating-badge badge-bottom-right">
+              <div class="floating-icon">
+                <i class="fa-solid fa-heart"></i>
+              </div>
+              <div class="floating-text">
+                <strong>Resep Autentik</strong>
+                <span>Warisan Sejak 2011</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       3. BAGIAN TENTANG KAMI (ABOUT SECTION)
+       ========================================================================== -->
+  <section class="about-section section-padding" id="tentang">
+    <div class="container">
+      <div class="about-grid">
+        <!-- Kolom Gambar Tentang Kami -->
+        <div class="about-image-col">
+          <div class="about-image-card">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSHtVZFFElSNVKK4NExI9WMtrZSHAPa7_qxMEtVgHxRZQ&s=10" alt="Suasana dan Hidangan Dapur Rasa Nu" id="about-img">
+            <div class="experience-tag">
+              <div class="exp-number">8+</div>
+              <div class="exp-text">Tahun Melayani</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Kolom Deskripsi Usaha -->
+        <div class="about-content-col">
+          <div class="section-badge">
+            <i class="fa-solid fa-kitchen-set"></i> Cerita Kami
+          </div>
+          <h2 class="section-title">Melestarikan Warisan Rasa dari Seluruh Penjuru Negeri</h2>
+          <p class="about-lead">
+             chil & gril lahir dari kecintaan mendalam terhadap kekayaan kuliner indonesia..
+          </p>
+          <p class="about-text">
+            Berdiri sejak tahun 2011 kami berkomitmen menjaga keaslian resep turun-temurun tanpa bahan pengawet kimia. Setiap porsi hidangan dimasak perlahan menggunakan rempah-rempah asli seperti kunyit, jahe, lengkuas, serai, dan cabai segar pilihan petani.
+          </p>
+          <p class="about-text">
+           mulai dari steak tenderloin, kami memastikan Anda merasakan sensasi makan yang menggugah selera dalam suasana resto yang hangat dan nyaman.
+          </p>
+
+          <!-- 4 Pilar Keunggulan -->
+          <div class="about-pillars">
+            <div class="pillar-item">
+              <div class="pillar-icon"><i class="fa-solid fa-seedling"></i></div>
+              <div>
+                <h4>Rempah Alami Murni</h4>
+                <p>Dipetik langsung dari petani lokal tanpa perasa buatan.</p>
+              </div>
+            </div>
+            <div class="pillar-item">
+              <div class="pillar-icon"><i class="fa-solid fa-shield-halved"></i></div>
+              <div>
+                <h4>Higienis & Bersih</h4>
+                <p>Standar kebersihan dapur berstandar mutu terpercaya.</p>
+              </div>
+            </div>
+            <div class="pillar-item">
+              <div class="pillar-icon"><i class="fa-solid fa-users"></i></div>
+              <div>
+                <h4>Koki Ahli Tradisional</h4>
+                <p>Tangan terampil berpengalaman dalam bumbu nusantara.</p>
+              </div>
+            </div>
+            <div class="pillar-item">
+              <div class="pillar-icon"><i class="fa-solid fa-wallet"></i></div>
+              <div>
+                <h4>Harga Bersahabat</h4>
+                <p>Kualitas rasa hotel berbintang dengan harga terjangkau.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Banner Angka / Statistik Prestasi -->
+      <div class="stats-banner">
+        <div class="stats-grid">
+          <div class="stat-item">
+            <div class="stat-number">9+</div>
+            <div class="stat-label">Varian Menu Spesial</div>
+          </div>
+          <div class="stat-item">
+            <div class="stat-number">50.000+</div>
+            <div class="stat-label">Porsi Terhidang</div>
+          </div>
+          <div class="stat-item">
+            <div class="stat-number">4.9/5</div>
+            <div class="stat-label">Rating Kepuasan</div>
+          </div>
+          <div class="stat-item">
+            <div class="stat-number">100%</div>
+            <div class="stat-label">Bahan Baku Halal</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       4. BAGIAN MENU MAKANAN & MINUMAN (MINIMAL 6 PRODUK LOKAL)
+       ========================================================================== -->
+  <section class="menu-section section-padding" id="menu">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-badge">
+          <i class="fa-solid fa-book-open"></i> Pilihan Terbaik
+        </div>
+        <h2 class="section-title">Menu Favorit dan Spesial chil & gril </h2>
+        <p class="section-subtitle">
+          Nikmati aneka pilihan hidangan utama dan minuman penyegar dahaga dengan cita rasa istimewa yang siap memanjakan lidah Anda.
+        </p>
+      </div>
+
+      <!-- Menu Category Filter Tabs -->
+      <div class="menu-filter-bar">
+        <button class="filter-btn active" data-filter="all">
+          <i class="fa-solid fa-border-all"></i> Semua Menu
+        </button>
+        <button class="filter-btn" data-filter="makanan">
+          <i class="fa-solid fa-bowl-rice"></i> Makanan Utama
+        </button>
+        <button class="filter-btn" data-filter="minuman">
+          <i class="fa-solid fa-mug-hot"></i> Minuman Segar
+        </button>
+      </div>
+
+      <!-- CSS GRID: Menampilkan 8 Produk Makanan & Minuman Lengkap -->
+      <div class="menu-grid" id="menu-product-grid">
+
+        <!-- Produk 1:Classic Ribeye Steak  -->
+        <article class="menu-card" data-category="makanan" id="product-1">
+          <div class="card-media">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQWCZzK7b-e9dXwzmOU7oRyizfpYlCME9UKMqcnbUMVMw&s=10" alt="Ayam Geprek Sambal Bawang" loading="lazy">
+            <div class="card-badge-top">
+              <span class="badge-tag badge-category">Makanan</span>
+              <span class="badge-tag badge-bestseller">Best Seller</span>
+            </div>
+            <div class="card-rating">
+              <i class="fa-solid fa-star"></i> 4.9
+            </div>
+          </div>
+          <div class="card-body">
+            <h3 class="product-title">Classic Ribeye Steak</h3>
+            <p class="product-desc">
+              Steak sapi panggang, kentang, dan sayuran.
+            </p>
+            <div class="card-footer">
+              <div class="price-wrap">
+                <span class="price-label">Harga</span>
+                <span class="product-price">Rp 90.000</span>
+              </div>
+              <button class="btn-order-item" title="Pesan Menu Ini" onclick="openOrderModal('Classic Ribeye Steak', 90000,)">
+                <i class="fa-solid fa-plus"></i>
+              </button>
+            </div>
+          </div>
+        </article>
+
+        <!-- Produk 2:Black Pepper Sirloin  -->
+        <article class="menu-card" data-category="makanan" id="product-2">
+          <div class="card-media">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTFwQpb2yBF7zp_4pgUrsTKAvha1f6gFRft-1BiL9GPww&s=10" alt="Black Pepper Sirloin" loading="lazy">
+            <div class="card-badge-top">
+              <span class="badge-tag badge-category">Makanan</span>
+              <span class="badge-tag badge-special">favorit</span>
+            </div>
+            <div class="card-rating">
+              <i class="fa-solid fa-star"></i> 5.0
+            </div>
+          </div>
+          <div class="card-body">
+            <h3 class="product-title">Black Pepper Sirloin</h3>
+            <p class="product-desc">
+              Steak sirloin dengan saus lada hitam.
+            <div class="card-footer">
+              <div class="price-wrap">
+                <span class="price-label">Harga</span>
+                <span class="product-price">Rp 75.000</span>
+              </div>
+              <button class="btn-order-item" title="Pesan Menu Ini" onclick="openOrderModal('Black Pepper Sirloin', 75000, )">
+                <i class="fa-solid fa-plus"></i>
+              </button>
+            </div>
+          </div>
+        </article>
+
+        <!-- Produk 3: Crispy Chicken Steak -->
+        <article class="menu-card" data-category="makanan" id="product-3">
+          <div class="card-media">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQwp6haSgy9V74twxkcfzbwDm0ld9d3wY1aiqboy7b0tw&s=10" alt="Crispy Chicken Steak" loading="lazy">
+            <div class="card-badge-top">
+              <span class="badge-tag badge-category">Makanan</span>
+              <span class="badge-tag badge-bestseller">Favorit</span>
+            </div>
+            <div class="card-rating">
+              <i class="fa-solid fa-star"></i> 4.8
+            </div>
+          </div>
+          <div class="card-body">
+            <h3 class="product-title">Crispy Chicken Steak</h3>
+            <p class="product-desc">
+              Ayam krispi, saus gravy, dan kentang goreng.
+            </p>
+            <div class="card-footer">
+              <div class="price-wrap">
+                <span class="price-label">Harga</span>
+                <span class="product-price">Rp 48.000</span>
+              </div>
+              <button class="btn-order-item" title="Pesan Menu Ini" onclick="openOrderModal('Crispy Chicken Steak', 48000,)">
+                <i class="fa-solid fa-plus"></i>
+              </button>
+            </div>
+          </div>
+        </article>
+
+        <!-- Produk 4:Smoky Beef Brisket  -->
+        <article class="menu-card" data-category="makanan" id="product-4">
+          <div class="card-media">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT0XmHc4odrCdE0ZTz975bpAPYLsspLPowoF82Zt4imQw&s=10" alt="Smoky Beef Brisket" loading="lazy">
+            <div class="card-badge-top">
+              <span class="badge-tag badge-category">Makanan</span>
+            </div>
+            <div class="card-rating">
+              <i class="fa-solid fa-star"></i> 4.9
+            </div>
+          </div>
+          <div class="card-body">
+            <h3 class="product-title">Smoky Beef Brisket</h3>
+            <p class="product-desc">
+              Daging sapi bagian brisket yang dimasak perlahan hingga empuk, dengan aroma asap dan saus BBQ khas.
+            </p>
+            <div class="card-footer">
+              <div class="price-wrap">
+                <span class="price-label">Harga</span>
+                <span class="product-price">Rp 100.000</span>
+              </div>
+              <button class="btn-order-item" title="Pesan Menu Ini" onclick="openOrderModal('Smoky Beef Brisket', 100000, )">
+                <i class="fa-solid fa-plus"></i>
+              </button>
+            </div>
+          </div>
+        </article>
+
+        <!-- Produk 5: T-Bone Steak -->
+        <article class="menu-card" data-category="makanan" id="product-5">
+          <div class="card-media">
+            <img src="data:image/jpeg;base64,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" alt="T-Bone Steak" loading="lazy">
+            <div class="card-badge-top">
+              <span class="badge-tag badge-category">Makanan</span>
+              <span class="badge-tag badge-special">favorit</span>
+            </div>
+            <div class="card-rating">
+              <i class="fa-solid fa-star"></i> 4.9
+            </div>
+          </div>
+          <div class="card-body">
+            <h3 class="product-title">T-Bone Steak</h3>
+            <p class="product-desc">
+             Steak sapi dengan tulang berbentuk T, dipanggang hingga juicy 
+            <div class="card-footer">
+              <div class="price-wrap">
+                <span class="price-label">Harga</span>
+                <span class="product-price">Rp 135.000</span>
+              </div>
+              <button class="btn-order-item" title="Pesan Menu Ini" onclick="openOrderModal('T-Bone Steak', 135000,)">
+                <i class="fa-solid fa-plus"></i>
+              </button>
+            </div>
+          </div>
+        </article>
+
+        <!-- Produk 6: Strawberry Smoothie -->
+        <article class="menu-card" data-category="makanan" id="product-6">
+          <div class="card-media">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgl3aW8ioxukYOevl3U5BiNeQQN8JKPzKjosPqQGxIVA&s=10" alt="Strawberry Smoothie" loading="lazy">
+            <div class="card-badge-top">
+              <span class="badge-tag badge-category">Minuman</span>
+              <span class="badge-tag badge-special">Sehat Segar</span>
+            </div>
+            <div class="card-rating">
+              <i class="fa-solid fa-star"></i> 4.7
+            </div>
+          </div>
+          <div class="card-body">
+            <h3 class="product-title">Strawberry Smoothie</h3>
+            <p class="product-desc">
+            smoothie stroberi yang manis dan menyegarkan.  
+            </p>
+            <div class="card-footer">
+              <div class="price-wrap">
+                <span class="price-label">Harga</span>
+                <span class="product-price">Rp 25.000</span>
+              </div>
+              <button class="btn-order-item" title="Pesan Menu Ini" onclick="openOrderModal('Strawberry Smoothie', 25000, )">
+                <i class="fa-solid fa-plus"></i>
+              </button>
+            </div>
+          </div>
+        </article>
+
+        
+
+        <!-- Produk 7: Lemon Tea -->
+        <article class="menu-card" data-category="minuman" id="product-8">
+          <div class="card-media">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQd7C1CrwrV6yYlIPPcspjPsS4BKHCvr1UPhp_iUjf-RQ&s=10" alt="" loading="lazy">
+            <div class="card-badge-top">
+              <span class="badge-tag badge-category">Minuman</span>
+              <span class="badge-tag badge-special">Segar Alami</span>
+            </div>
+            <div class="card-rating">
+              <i class="fa-solid fa-star"></i> 4.8
+            </div>
+          </div>
+          <div class="card-body">
+            <h3 class="product-title">Lemon Tea</h3>
+            <p class="product-desc">
+             Teh segar dengan perasan lemon
+            </p>
+            <div class="card-footer">
+              <div class="price-wrap">
+                <span class="price-label">Harga</span>
+                <span class="product-price">Rp 15.000</span>
+              </div>
+              <button class="btn-order-item" title="Pesan Menu Ini" onclick="openOrderModal('lemon Tea', 15000,)">
+                <i class="fa-solid fa-plus"></i>
+              </button>
+            </div>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       5. BAGIAN KEUNGGULAN (FEATURES SECTION)
+       ========================================================================== -->
+  <section class="features-section section-padding" id="keunggulan">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-badge">
+          <i class="fa-solid fa-award"></i> Komitmen Kami
+        </div>
+        <h2 class="section-title">Mengapa Memilih chil & gril ?</h2>
+        <p class="section-subtitle">
+           Kenyamanan Anda dan kualitas cita rasa makanan adalah prioritas tertinggi yang kami pegang teguh setiap hari.
+        </p>
+      </div>
+
+      <div class="features-grid">
+        <div class="feature-box">
+          <div class="feature-icon-circle">
+            <i class="fa-solid fa-pepper-hot"></i>
+          </div>
+          <h3 class="feature-title">Rempah Murni Pilihan</h3>
+          <p class="feature-text">
+            Bumbu diracik segar dari rempah-rempah alami terbaik tanpa penyedap berlebih atau bahan kimia berbahaya.
+          </p>
+        </div>
+
+        <div class="feature-box">
+          <div class="feature-icon-circle">
+            <i class="fa-solid fa-hand-sparkles"></i>
+          </div>
+          <h3 class="feature-title">Kebersihan Standar Tinggi</h3>
+          <p class="feature-text">
+            Seluruh proses pengolahan bahan hingga penyajian di meja tamu selalu mematuhi protokol higienitas ketat.
+          </p>
+        </div>
+
+        <div class="feature-box">
+          <div class="feature-icon-circle">
+            <i class="fa-solid fa-truck-fast"></i>
+          </div>
+          <h3 class="feature-title">Penyajian Cepat & Hangat</h3>
+          <p class="feature-text">
+            Didukung manajemen dapur yang gesit sehingga pesanan Anda tiba di meja dengan hangat dan dalam waktu singkat.
+          </p>
+        </div>
+
+        <div class="feature-box">
+          <div class="feature-icon-circle">
+            <i class="fa-solid fa-heart-circle-check"></i>
+          </div>
+          <h3 class="feature-title">Pelayanan Ramah Kekeluargaan</h3>
+          <p class="feature-text">
+            Staf kami yang ramah siap melayani kebutuhan makan bersama keluarga, teman kerja, hingga acara arisan dan reuni.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       6. BAGIAN KONTAK & RESERVASI (CONTACT SECTION)
+       ========================================================================== -->
+  <section class="contact-section section-padding" id="kontak">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-badge">
+          <i class="fa-solid fa-envelope-open-text"></i> Hubungi Kami
+        </div>
+        <h2 class="section-title">Reservasi Meja & Layanan Kontak</h2>
+        <p class="section-subtitle">
+          Ingin memesan tempat terlebih dahulu, memesan katering, atau memiliki pertanyaan? Hubungi kami langsung atau isi formulir di bawah ini.
+        </p>
+      </div>
+
+      <div class="contact-layout">
+        <!-- Informasi Usaha & Lokasi -->
+        <div class="contact-info-col">
+          <div class="contact-card">
+            <div class="contact-icon">
+              <i class="fa-solid fa-location-dot"></i>
+            </div>
+            <div class="contact-details">
+              <h4>Alamat Restoran</h4>
+              <p>Jl.sultan hasanudin No. 88, Kebayoran Baru, Jakarta pusat, DKI Jakarta 12160</p>
+              <a href="https://maps.google.com" target="_blank" rel="noopener noreferrer">Buka di Google Maps <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            </div>
+          </div>
+
+          <div class="contact-card">
+            <div class="contact-icon">
+              <i class="fa-solid fa-clock"></i>
+            </div>
+            <div class="contact-details">
+              <h4>Jam Operasional</h4>
+              <p>Senin – Jumat: 10.00 – 22.00 WIB</p>
+              <p>Sabtu – Minggu: 09.00 – 23.00 WIB</p>
+              <span style="color: var(--accent-green); font-size: 0.85rem; font-weight: 700;">
+                <i class="fa-solid fa-circle-check"></i> Buka Setiap Hari
+              </span>
+            </div>
+          </div>
+
+          <div class="contact-card">
+            <div class="contact-icon">
+              <i class="fa-solid fa-phone"></i>
+            </div>
+            <div class="contact-details">
+              <h4>Telepon & WhatsApp</h4>
+              <p>Layanan Cepat & Informasi: <br>
+                <a href="https://wa.me/6281234567890" target="_blank" rel="noopener noreferrer">+62 812-3456-7890</a>
+              </p>
+              <p>Email: <a href="mailto:halo@dapurrasanusantara.id">halo@chil&gril</a></p>
+            </div>
+          </div>
+
+          <!-- Media Sosial -->
+          <div class="contact-card" style="flex-direction: column; gap: 0.8rem;">
+            <h4 style="font-size: 1.05rem; font-weight: 700; color: var(--dark-color);">Ikuti Media Sosial Kami</h4>
+            <p style="font-size: 0.9rem; color: var(--text-secondary);">Dapatkan update promo menu dan resep menarik setiap minggunya:</p>
+            <div class="social-links">
+              <a href="#kontak" class="social-btn" title="Instagram chil & gril"><i class="fa-brands fa-instagram"></i></a>
+              <a href="#kontak" class="social-btn" title="TikTok chil & gril"><i class="fa-brands fa-tiktok"></i></a>
+              <a href="#kontak" class="social-btn" title="Facebook chil & gril"><i class="fa-brands fa-facebook-f"></i></a>
+              <a href="https://wa.me/6281234567890" class="social-btn" title="WhatsApp Langsung"><i class="fa-brands fa-whatsapp"></i></a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Formulir Pemesanan & Reservasi -->
+        <div class="reservation-card" id="form-container">
+          <h3>Formulir Reservasi Meja</h3>
+          <p>Isi formulir berikut dan tim kami akan segera mengonfirmasi pesanan meja Anda dalam waktu maksimal 15 menit.</p>
+
+          <form id="reservation-form">
+            <div class="form-grid">
+              <div class="form-group">
+                <label for="res-name" class="form-label">Nama Lengkap *</label>
+                <input type="text" id="res-name" name="name" placeholder="Contoh: Budi Santoso" required>
+              </div>
+
+              <div class="form-group">
+                <label for="res-phone" class="form-label">Nomor WhatsApp *</label>
+                <input type="tel" id="res-phone" name="phone" placeholder="08123456789" required>
+              </div>
+
+              <div class="form-group">
+                <label for="res-date" class="form-label">Tanggal Kunjungan *</label>
+                <input type="date" id="res-date" name="date" required>
+              </div>
+
+              <div class="form-group">
+                <label for="res-time" class="form-label">Waktu Kedatangan *</label>
+                <input type="time" id="res-time" name="time" required>
+              </div>
+
+              <div class="form-group">
+                <label for="res-guests" class="form-label">Jumlah Orang *</label>
+                <select id="res-guests" name="guests" required>
+                  <option value="" disabled selected>Pilih Jumlah Tamu</option>
+                  <option value="1-2">1 - 2 Orang</option>
+                  <option value="3-5">3 - 5 Orang (Keluarga Kecil)</option>
+                  <option value="6-10">6 - 10 Orang (Rombongan)</option>
+                  <option value="10+">Lebih dari 10 Orang (Acara/Arisan)</option>
+                </select>
+              </div>
+
+              <div class="form-group">
+                <label for="res-menu-pick" class="form-label">Menu Pilihan Favorit</label>
+                <select id="res-menu-pick" name="menu_pick">
+                  <option value="Belum Memilih">Pilih Nanti di Resto</option>
+                  <option value="Ayam Geprek Sambal Bawang">Ayam Geprek Sambal Bawang</option>
+                  <option value="Rendang Daging Sapi Minang">Rendang Daging Sapi Minang</option>
+                  <option value="Sate Ayam Madura Saus Kacang">Sate Ayam Madura Saus Kacang</option>
+                  <option value="Nasi Goreng Spesial Nusantara">Nasi Goreng Spesial Nusantara</option>
+                  <option value="Soto Betawi Daging Gurih">Soto Betawi Daging Gurih</option>
+                  <option value="Gado-Gado Siram Spesial">Gado-Gado Siram Spesial</option>
+                </select>
+              </div>
+
+              <div class="form-group full-width">
+                <label for="res-notes" class="form-label">Catatan Tambahan (Opsional)</label>
+                <textarea id="res-notes" name="notes" placeholder="Contoh: Meja dekat jendela, perayaan ulang tahun, atau request tingkat kepedasan..."></textarea>
+              </div>
+            </div>
+
+            <button type="submit" class="btn btn-primary form-submit-btn" id="btn-submit-reservation">
+              <i class="fa-solid fa-paper-plane"></i> Kirim Konfirmasi Reservasi
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       7. BAGIAN FOOTER
+       ========================================================================== -->
+  <footer class="footer" id="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <!-- Kolom 1: Profil Usaha -->
+        <div class="footer-col">
+          <div class="brand-logo" style="margin-bottom: 1.2rem;">
+            <div class="brand-icon">
+              <i class="fa-solid fa-utensils"></i>
+            </div>
+            <div class="brand-text-wrap">
+              <span class="brand-name" style="color: #ffffff;">chil</span>
+              <span class="brand-tagline"> & gril</span>
+            </div>
+          </div>
+          <p>
+            Rumah makan berkonsep bistro tradisional yang berdedikasi menyajikan aneka mahakarya kuliner nusantara dengan bahan-bahan rempah alami berkualitas tinggi, higienis, dan terjangkau.
+          </p>
+          <div class="social-links" style="margin-top: 1.2rem;">
+            <a href="#beranda" class="social-btn" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#beranda" class="social-btn" aria-label="TikTok"><i class="fa-brands fa-tiktok"></i></a>
+            <a href="#beranda" class="social-btn" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="https://wa.me/6281234567890" class="social-btn" aria-label="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+          </div>
+        </div>
+
+        <!-- Kolom 2: Navigasi Cepat -->
+        <div class="footer-col">
+          <h4>Navigasi Cepat</h4>
+          <nav class="footer-nav">
+            <a href="#beranda"><i class="fa-solid fa-angle-right"></i> Beranda</a>
+            <a href="#tentang"><i class="fa-solid fa-angle-right"></i> Tentang Kami</a>
+            <a href="#menu"><i class="fa-solid fa-angle-right"></i> Menu Spesial</a>
+            <a href="#keunggulan"><i class="fa-solid fa-angle-right"></i> Keunggulan Resto</a>
+            <a href="#kontak"><i class="fa-solid fa-angle-right"></i> Kontak & Reservasi</a>
+          </nav>
+        </div>
+
+        <!-- Kolom 3: Jam Layanan -->
+        <div class="footer-col">
+          <h4>Jam Layanan</h4>
+          <div class="opening-hours-card">
+            <div class="day">Senin - Jumat</div>
+            <div class="time">10.00 - 22.00 WIB</div>
+            <hr style="margin: 0.8rem 0; border: none; border-top: 1px dashed rgba(255,255,255,0.15);">
+            <div class="day">Sabtu - Minggu</div>
+            <div class="time">09.00 - 23.00 WIB</div>
+          </div>
+          <p style="margin-top: 1rem; font-size: 0.82rem; color: #a89488;">
+            * Layanan pesan antar dan reservasi tempat tetap dilayani saat hari libur nasional.
+          </p>
+        </div>
+
+        <!-- Kolom 4: Kontak Cepat -->
+        <div class="footer-col">
+          <h4>Hubungi Kami</h4>
+          <ul class="footer-contact-list">
+            <li>
+              <i class="fa-solid fa-location-dot"></i>
+              <span>Jl. sultan hasanudin. 88, Kebayoran Baru, Jakarta pusat</span>
+            </li>
+            <li>
+              <i class="fa-solid fa-phone"></i>
+              <span>+62 812-3456-7890</span>
+            </li>
+            <li>
+              <i class="fa-solid fa-envelope"></i>
+              <span>halo@chil&gril</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Bottom Bar Hak Cipta -->
+      <div class="footer-bottom">
+        <div>
+          &copy; 2026 <strong>chil & gril</strong>. Hak Cipta Dilindungi Undang-Undang.
+        </div>
+        <div>
+          Dirancang untuk Cita Rasa Terbaik Kuliner Indonesia.
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ==========================================================================
+       8. MODAL INTERAKTIF PEMESANAN MENU (ORDER POPUP)
+       ========================================================================== -->
+  <div class="modal-overlay" id="orderModal">
+    <div class="modal-content">
+      <button class="modal-close-btn" id="modalCloseBtn" onclick="closeOrderModal()" aria-label="Tutup Jendela Modal">
+        <i class="fa-solid fa-xmark"></i>
+      </button>
+
+      <h3 style="font-size: 1.35rem; font-weight: 800; color: var(--dark-color); margin-bottom: 0.3rem;">
+        Konfirmasi Pesanan Menu
+      </h3>
+      <p style="font-size: 0.88rem; color: var(--text-secondary);">
+        Silakan tentukan jumlah porsi yang ingin Anda pesan:
+      </p>
+
+      <div class="modal-product-preview">
+        <img src="images/hero.jpg" alt="Preview Menu" id="modalProductImg" class="modal-product-img">
+        <div>
+          <h4 id="modalProductName" style="font-size: 1.05rem; font-weight: 700; color: var(--dark-color);">Nama Menu</h4>
+          <span id="modalProductPrice" style="font-size: 1.1rem; font-weight: 800; color: var(--primary-color);">Rp 0</span>
+        </div>
+      </div>
+
+      <div style="display: flex; justify-content: space-between; align-items: center; margin: 1.2rem 0;">
+        <span style="font-weight: 600; font-size: 0.95rem; color: var(--dark-color);">Jumlah Porsi:</span>
+        <div class="modal-qty-control">
+          <button class="qty-btn" type="button" onclick="changeModalQty(-1)">-</button>
+          <input type="text" id="modalQtyInput" class="qty-input" value="1" readonly>
+          <button class="qty-btn" type="button" onclick="changeModalQty(1)">+</button>
+        </div>
+      </div>
+
+      <div style="display: flex; justify-content: space-between; align-items: center; padding: 1rem 0; border-top: 1px dashed var(--border-color); margin-bottom: 1.2rem;">
+        <span style="font-weight: 700; color: var(--dark-color);">Total Pembayaran:</span>
+        <span id="modalTotalPrice" style="font-size: 1.3rem; font-weight: 800; color: var(--primary-color);">Rp 0</span>
+      </div>
+
+      <div style="display: flex; gap: 0.8rem; flex-direction: column;">
+        <button type="button" class="btn btn-whatsapp" id="btn-confirm-wa" onclick="sendOrderViaWhatsApp()">
+          <i class="fa-brands fa-whatsapp"></i> Pesan Langsung via WhatsApp
+        </button>
+        <button type="button" class="btn btn-secondary" onclick="closeOrderModal()">
+          Batal & Kembali ke Menu
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Notification Toast -->
+  <div class="toast-msg" id="toastMsg">
+    <i class="fa-solid fa-circle-check" style="color: #2b8a3e; font-size: 1.3rem;"></i>
+    <span id="toastText">Pemberitahuan</span>
+  </div>
+
+  <!-- JavaScript File -->
+  <script src="script.js"></script>
+</body>
+</html>
